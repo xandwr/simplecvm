@@ -1,0 +1,5 @@
+LOAD R1, 10      # Load the value 10 into R1
+LOAD R2, 20      # Load the value 20 into R2
+ADDR R1, R2      # Add the value in R2 to R1
+OUTR R1          # Output the value in R1 (should be 30)
+HALT             # Stop execution
